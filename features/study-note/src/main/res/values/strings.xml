@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android with clean and multi module architecture -->
+
+<resources>
+    <string name="new_workout_note">New study note</string>
+    <string name="undo_message">%1$s session has been removed</string>
+    <string name="session_list_item_text_1">"Study hour: %1$s"</string>
+    <string name="session_list_item_text_2">"Break Duration: %1$s"</string>
+    <string name="name_text_field_hint">Name</string>
+    <string name="session_group_name">Subject</string>
+    <string name="break_duration_group_name">Break Duration</string>
+    <string name="break_duration_field_hint">Seconds</string>
+    <string name="repetitions_field_hint">Your study hour after break</string>
+    <string name="session_name_field_hint">Subject name</string>
+    <string name="no_sessions_img_description"><![CDATA[>Add sessions image]]></string>
+    <string name="no_exercises_title">You have not added any subjects yet</string>
+    <string name="no_exercises_message">Once you’ll add your\nfirst subject you’ll be able view it here</string>
+    <string name="action_details">details</string>
+    <string name="action_done_title">done</string>
+    <string name="invalid_name_format">Name cannot be empty</string>
+    <string name="invalid_repetitions_format">Only positive integers are allowed</string>
+    <string name="invalid_break_duration_format">Only positive integers are allowed</string>
+</resources>

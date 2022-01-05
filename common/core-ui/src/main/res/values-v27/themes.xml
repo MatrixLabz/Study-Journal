@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android with clean and multi module architecture -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.StudyJournal" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--Primary Colors.-->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!--Secondary Colors.-->
+        <item name="colorSecondary">@color/blue_500</item>
+        <item name="colorSecondaryVariant">@color/blue_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Default background color for windows. -->
+        <item name="android:windowBackground">@color/coarse_wool_900</item>
+
+        <!--ThemeOverlay for dialogs.-->
+        <item name="materialAlertDialogTheme">@style/Theme.StudyJournal.Dialog</item>
+
+        <!--Navigation bar style for phones starting from API 27. -->
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarColor">@color/blue_500</item>
+
+        <!--Style for snackbars.-->
+        <item name="snackbarStyle">@style/MaterialSnackbarStyle</item>
+
+        <!--Default text color.-->
+        <item name="android:textColor">@color/blue_haze_100</item>
+
+        <!--Default secondary text color.-->
+        <item name="android:textColorSecondary">@color/blue_haze_200</item>
+
+        <!--Default color accent.-->
+        <item name="colorAccent">@color/cyan_blue_300</item>
+    </style>
+</resources>

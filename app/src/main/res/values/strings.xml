@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Study Journal</string>
+    <string name="notification_content_title">You are on a short break.</string>
+    <string name="notification_content_text">The timer will let you know when break finishes.</string>
+</resources>

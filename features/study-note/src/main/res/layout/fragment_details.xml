@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android with clean and multi module architecture -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context="com.matrix.studyNote.ui.details.DetailsFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:textColorHint="@color/blue_haze_100"
+        app:boxBackgroundColor="@color/black_iris_900">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_text_field_hint"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/blue_haze_100"
+            tools:text="Untitled session" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

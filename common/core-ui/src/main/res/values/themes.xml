@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android with clean and multi module architecture -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.StudyJournal" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--Primary Colors.-->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!--Secondary Colors.-->
+        <item name="colorSecondary">@color/blue_500</item>
+        <item name="colorSecondaryVariant">@color/blue_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Default background color for windows. -->
+        <item name="android:windowBackground">@color/coarse_wool_900</item>
+
+        <!--ThemeOverlay for dialogs.-->
+        <item name="materialAlertDialogTheme">@style/Theme.StudyJournal.Dialog</item>
+
+        <!--Style for snackbars.-->
+        <item name="snackbarStyle">@style/MaterialSnackbarStyle</item>
+
+        <!--Default text color.-->
+        <item name="android:textColor">@color/blue_haze_100</item>
+
+        <!--Default secondary text color.-->
+        <item name="android:textColorSecondary">@color/blue_haze_200</item>
+
+        <!--Default color accent.-->
+        <item name="colorAccent">@color/cyan_blue_300</item>
+    </style>
+
+    <style name="Theme.StudyJournal.Dialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">#89B2FF</item>
+        <item name="colorSurface">@color/black_iris_900</item>
+        <item name="colorOnSurface">@color/black_iris_900</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.App.Text</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Text" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/blue_haze_100</item>
+    </style>
+
+    <style name="MaterialSnackbarStyle" parent="@style/Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/black_iris_900</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="cyan_blue_300">#89B2FF</color>
+    <color name="coarse_wool_900">#1C202F</color>
+    <color name="black_iris_900">#2A3041</color>
+    <color name="blue_500">#3654AB</color>
+    <color name="blue_700">#274296</color>
+    <color name="blue_haze_100">#CAD0E2</color>
+    <color name="blue_haze_200">#a6B2D4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red_600">#E54238</color>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.matrix.main.ui.MainFragment"
+        android:label="Study Journal">
+        <action
+            android:id="@+id/action_mainFragment_to_study_note_graph"
+            app:destination="@id/study_note_graph"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left">
+            <argument
+                android:name="properties"
+                app:argType="com.matrix.core.utils.navigation.models.Properties" />
+        </action>
+    </fragment>
+    <include app:graph="@navigation/study_note_graph" />
+</navigation>

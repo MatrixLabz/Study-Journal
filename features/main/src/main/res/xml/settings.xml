@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:key="@string/sessions_category_key"
+        app:title="@string/sessions_category_title">
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="false"
+            app:key="@string/start_breaks_automatically_key"
+            app:title="@string/start_breaks_automatically_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:allowDividerAbove="false"
+        app:iconSpaceReserved="false"
+        app:key="@string/about_category_key"
+        app:title="@string/about_category_title">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="@string/rate_app_key"
+            app:summary="@string/rate_app_summary"
+            app:title="@string/rate_app_title" />
+<!--        <Preference-->
+<!--            app:iconSpaceReserved="false"-->
+<!--            app:key="@string/privacy_policy_key"-->
+<!--            app:title="@string/privacy_policy_title" />-->
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="@string/version_key"
+            app:title="@string/version_title"
+            tools:summary="1.0.0" />
+    </PreferenceCategory>
+</PreferenceScreen>
