@@ -8,9 +8,9 @@ import java.util.Date
 import javax.inject.Inject
 
 /**
- * Adds a new workout note to the database.
+ * Adds a new study note to the database.
  */
-class AddNewWorkoutNoteUseCase @Inject constructor(
+class AddNewStudyNoteUseCase @Inject constructor(
     private val repository: CrudRepository
 ) {
     suspend operator fun invoke() =

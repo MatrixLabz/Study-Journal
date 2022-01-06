@@ -10,7 +10,7 @@ import javax.inject.Inject
 /**
  * Fetches study notes from the database.
  */
-class FetchWorkoutNotesUseCase @Inject constructor(
+class FetchStudyNotesUseCase @Inject constructor(
     private val repository: CrudRepository
 ) {
     operator fun invoke() = repository.fetchStudyNotes().map {

@@ -6,6 +6,7 @@ plugins {
     `android-library-convention`
     kotlin("kapt")
     id("dagger.hilt.android.plugin")
+    id("kotlin-android")
 }
 
 configuration(
@@ -39,6 +40,7 @@ dependencies {
 
     implementation(project(":common:core"))
     implementation(project(":common:core-ui"))
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
 
     testImplementation(Libraries.jUnit)
     androidTestImplementation(Libraries.androidXJunit)

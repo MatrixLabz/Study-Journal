@@ -10,6 +10,7 @@ import com.matrix.studyNote.ui.details.DetailsFragment
 import com.matrix.studyNote.ui.note.NoteFragment
 import com.matrix.studyNote.ui.sessionDialog.SessionDialogFragment
 import com.matrix.core.di.FragmentKey
+import com.matrix.main.ui.splashscreen.SplashFragment
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -19,6 +20,11 @@ import dagger.multibindings.IntoMap
 @Module
 @InstallIn(SingletonComponent::class)
 interface InjectFactoryModule {
+
+    @Binds
+    @IntoMap
+    @FragmentKey(SplashFragment::class)
+    fun bindSplashFragment(fragment: SplashFragment): Fragment
 
     @Binds
     @IntoMap

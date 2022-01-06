@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.google.android.material.tabs.TabLayoutMediator
 import com.matrix.core.utils.navigation.GlobalDirections
@@ -14,8 +16,13 @@ import com.matrix.main.databinding.FragmentMainBinding
 import com.matrix.main.ui.history.HistoryFragment
 import com.matrix.main.ui.pager.ViewPagerAdapter
 import com.matrix.main.ui.settings.SettingsFragment
+import com.matrix.main.ui.splashscreen.SplashFragment
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
+import androidx.appcompat.app.AppCompatActivity
+
+
+
 
 @AndroidEntryPoint
 class MainFragment @Inject constructor(
@@ -43,5 +50,10 @@ class MainFragment @Inject constructor(
         TabLayoutMediator(binding.tabLayout, binding.viewPager) { tab, position ->
             tab.icon = AppCompatResources.getDrawable(requireContext(), tabIcons[position])
         }.attach()
+    }
+
+    override fun onResume() {
+        (activity as AppCompatActivity?)!!.supportActionBar!!.show()
+        super.onResume()
     }
 }

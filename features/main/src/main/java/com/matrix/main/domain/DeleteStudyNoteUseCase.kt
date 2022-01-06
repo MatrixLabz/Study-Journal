@@ -6,9 +6,9 @@ import com.matrix.core.domain.models.StudyNote
 import javax.inject.Inject
 
 /**
- * Deletes a workout note from the database.
+ * Deletes a study note from the database.
  */
-class DeleteWorkoutNoteUseCase @Inject constructor(
+class DeleteStudyNoteUseCase @Inject constructor(
     private val repository: CrudRepository
 ) {
     suspend operator fun invoke(studyNote: StudyNote) =

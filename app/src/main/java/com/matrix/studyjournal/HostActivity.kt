@@ -14,7 +14,9 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class HostActivity : AppCompatActivity(R.layout.activity_host) {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
+//        setTheme(R.style.Theme_StudyJournal)
         setupFragmentFactory()
         super.onCreate(savedInstanceState)
         setSupportActionBar(findViewById(R.id.toolbar))
@@ -24,7 +26,7 @@ class HostActivity : AppCompatActivity(R.layout.activity_host) {
     private fun setupNavController() {
         findViewById<Toolbar>(R.id.toolbar).setupWithNavController(
             findNavController(),
-            AppBarConfiguration.Builder(R.id.mainFragment, R.id.timerFragment).build()
+            AppBarConfiguration.Builder(R.id.splashFragment, R.id.mainFragment, R.id.timerFragment).build()
         )
     }
 
