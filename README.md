@@ -10,14 +10,14 @@ subjects.
 ![summary](docs/screenshots/mad_score.png)
 
 ## Screenshots
-To be added....
+
 <p align="center">
-<img src="docs/screenshots/img-1.jpg" width="32%"/>
-<img src="docs/screenshots/img-2.jpg" width="32%"/>
-<img src="docs/screenshots/img-3.jpg" width="32%"/>
-<img src="docs/screenshots/img-4.jpg" width="32%"/>
-<img src="docs/screenshots/img-5.jpg" width="32%"/>
-<img src="docs/screenshots/img-6.jpg" width="32%"/>
+<img src="docs/screenshots/img-1.jpg" width="16%"/>
+<img src="docs/screenshots/img-2.jpg" width="16%"/>
+<img src="docs/screenshots/img-3.jpg" width="16%"/>
+<img src="docs/screenshots/img-4.jpg" width="16%"/>
+<img src="docs/screenshots/img-5.jpg" width="16%"/>
+<img src="docs/screenshots/img-6.jpg" width="16%"/>
 </p>
 
 ## Tech stack & Open-source libraries
