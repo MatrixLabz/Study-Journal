@@ -44,7 +44,7 @@
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:contentDescription="@string/no_sessions_img_description"
-        android:src="@drawable/ic_exercise"
+        android:src="@drawable/ic_undraw_inspection"
         app:layout_constraintBottom_toTopOf="@id/sessionListHintTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

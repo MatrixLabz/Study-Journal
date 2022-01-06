@@ -13,12 +13,17 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class SettingsFragment(private val versionName: String) : PreferenceFragmentCompat(),
     Preference.OnPreferenceClickListener {
+
     private val versionPreference: Preference? by lazy {
         findPreference(getString(R.string.version_key))
     }
 
     private val rateAppPreference: Preference? by lazy {
         findPreference(getString(R.string.rate_app_key))
+    }
+
+    private val githubLinkPreference: Preference? by lazy {
+        findPreference(getString(R.string.github_link))
     }
 
     private val privacyPolicyPreference: Preference? by lazy {
@@ -30,6 +35,7 @@ class SettingsFragment(private val versionName: String) : PreferenceFragmentComp
         versionPreference?.let { it.summary = versionName }
         versionPreference?.onPreferenceClickListener = this
         rateAppPreference?.onPreferenceClickListener = this
+        githubLinkPreference?.onPreferenceClickListener = this
         privacyPolicyPreference?.onPreferenceClickListener = this
     }
 
@@ -44,10 +50,17 @@ class SettingsFragment(private val versionName: String) : PreferenceFragmentComp
 //            Toast.makeText(activity, "URL will be uploading soon!", Toast.LENGTH_LONG).show()
 //            true
 //        }
+
+        getString(R.string.github_link) -> {
+            openLink(BuildConfig.GITHUB_URL)
+            true
+        }
+
         getString(R.string.version_key) -> {
             Toast.makeText(requireContext(), versionName, Toast.LENGTH_SHORT).show()
             true
         }
+
         else -> false
     }
 }

@@ -57,5 +57,4 @@ To be added....
 
 ## Contact
 
-Prasoon Kumar - [LinkedIn](https://linkedin.com/in/prasoon0)
-- [Email](mailto:prasoonk187@gmail.com) - [Facebook](https://www.facebook.com/prasoon0)
+Prasoon Kumar - [LinkedIn](https://linkedin.com/in/prasoon0) - [Email](mailto:prasoonk187@gmail.com) - [Facebook](https://www.facebook.com/prasoon0)

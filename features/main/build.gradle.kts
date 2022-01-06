@@ -20,6 +20,11 @@ configuration(
             "String",
             "GOOGLE_PLAY_URL",
             "\"market://details?id=com.matrix.studyjournal\""
+        ),
+        ConfigField(
+            "String",
+            "GITHUB_URL",
+            "\"https://github.com/it5prasoon/Study-Journal\""
         )
     )
 )

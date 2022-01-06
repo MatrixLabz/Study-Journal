@@ -45,7 +45,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:contentDescription="@string/no_history_img_description"
-        android:src="@drawable/ic_add_notes"
+        android:src="@drawable/ic_undraw_reading_time"
         app:layout_constraintBottom_toTopOf="@id/historyListHintTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -9,7 +9,9 @@
         <SwitchPreferenceCompat
             app:iconSpaceReserved="false"
             app:key="@string/start_breaks_automatically_key"
-            app:title="@string/start_breaks_automatically_title" />
+            app:title="@string/start_breaks_automatically_title"
+            app:summary="@string/start_breaks_automatically_summary"
+            />
     </PreferenceCategory>
     <PreferenceCategory
         app:allowDividerAbove="false"
@@ -25,6 +27,11 @@
 <!--            app:iconSpaceReserved="false"-->
 <!--            app:key="@string/privacy_policy_key"-->
 <!--            app:title="@string/privacy_policy_title" />-->
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="@string/github_link"
+            app:title="@string/github_title"
+            app:summary="@string/github_description" />
         <Preference
             app:iconSpaceReserved="false"
             app:key="@string/version_key"
