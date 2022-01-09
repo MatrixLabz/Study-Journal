@@ -8,7 +8,7 @@ subjects.
 
 ## Problem Statement and Solution PDF
 
-- Link: https://it5prasoon.github.com/AppSubmission.pdf
+- Link: https://it5prasoon.github.io/AppSubmission.pdf
 
 ## MAD Score
 
