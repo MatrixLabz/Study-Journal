@@ -22,8 +22,6 @@ import javax.inject.Inject
 import androidx.appcompat.app.AppCompatActivity
 
 
-
-
 @AndroidEntryPoint
 class MainFragment @Inject constructor(
     private val directions: GlobalDirections,

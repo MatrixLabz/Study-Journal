@@ -5,6 +5,11 @@ An android application for creating a journal for subjects you studied and also 
 subjects.
 </p>
 
+
+## Problem Statement and Solution PDF
+
+- Link: https://it5prasoon.github.com/AppSubmission.pdf
+
 ## MAD Score
 
 ![summary](docs/screenshots/mad_score.png)
